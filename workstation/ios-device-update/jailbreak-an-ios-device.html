@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en-us" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.19" />
+    <meta name="description" content="NowSecure Workstation Documentation">
+<meta name="author" content="NowSecure, Inc.">
+
+    <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Jailbreak an iOS Device</title>
+    <link href="../../css/nucleus.css" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/hybrid.css" rel="stylesheet">
+    <link href="../../css/featherlight.min.css" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="../../css/horsey.css" rel="stylesheet">
+    <link href="../../css/theme.css" rel="stylesheet">
+    <link href="../../css/hugo-theme.css" rel="stylesheet">
+    <script src="../../js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    
+
+  </head>
+  <body class="" data-url="/workstation/ios-device-update/jailbreak-an-ios-device.html">
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://nowsecure.com" target="_blank">
+  <img src="../../images/logo.svg" />
+</a>
+
+    </div>
+    
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+        
+        
+          
+            
+          
+        
+      
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/workstation.html">
+        <a href="../index.html">
+          <span>
+            
+              <b></b>
+            
+             Workstation
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started.html">
+              <a href="../../workstation/getting-started.html">
+                <span>
+                  
+                    
+                  
+                  Getting Started     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/hardware-software-requirements.html">
+              <a href="../../workstation/getting-started/hardware-software-requirements.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Hardware / Software Requirements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/obtaining-workstation.html">
+              <a href="../../workstation/getting-started/obtaining-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Step 1 Obtaining NowSecure Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/installing-workstation.html">
+              <a href="../../workstation/getting-started/installing-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Step 2 Installing NowSecure Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/running-workstation.html">
+              <a href="../../workstation/getting-started/running-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Step 3 Running Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/updating-workstation.html">
+              <a href="../../workstation/getting-started/updating-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updating NowSecure Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview.html">
+              <a href="../../workstation/ui-overview.html">
+                <span>
+                  
+                    
+                  
+                  User Interface Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/artifact-viewer.html">
+              <a href="../../workstation/ui-overview/artifact-viewer.html">
+                <span>
+                  
+                    &nbsp;&#8226;
+                  
+                  Artifact Viewer     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/editors.html">
+              <a href="../../workstation/ui-overview/editors.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Editors     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/toolbar-buttons.html">
+              <a href="../../workstation/ui-overview/toolbar-buttons.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Toolbar Buttons     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/preferences.html">
+              <a href="../../workstation/ui-overview/preferences.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Preferences     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/backup-import-projects.html">
+              <a href="../../workstation/ui-overview/backup-import-projects.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Backup/Import Projects     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/updates.html">
+              <a href="../../workstation/ui-overview/updates.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updates     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/background-task-manager.html">
+              <a href="../../workstation/ui-overview/background-task-manager.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Background Task Manager     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/emulator.html">
+              <a href="../../workstation/ui-overview/emulator.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Emulator (Android Only)     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/device-manager.html">
+              <a href="../../workstation/ui-overview/device-manager.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device Manager     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/device-provisioning.html">
+              <a href="../../workstation/ui-overview/device-provisioning.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device Provisioning     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/backup-and-restore.html">
+              <a href="../../workstation/ui-overview/backup-and-restore.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device / Emulator Backup and Restore     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide.html">
+              <a href="../../workstation/step-by-step-guide.html">
+                <span>
+                  
+                    
+                  
+                  Step-by-Step Guide     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/setup.html">
+              <a href="../../workstation/step-by-step-guide/setup.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Setup     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/network.html">
+              <a href="../../workstation/step-by-step-guide/network.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Network     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/forensics.html">
+              <a href="../../workstation/step-by-step-guide/forensics.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Forensics     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/code.html">
+              <a href="../../workstation/step-by-step-guide/code.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Code     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/advanced.html">
+              <a href="../../workstation/step-by-step-guide/advanced.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Advanced     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/report.html">
+              <a href="../../workstation/step-by-step-guide/report.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Report     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing.html">
+              <a href="../../workstation/jailed-testing.html">
+                <span>
+                  
+                    
+                  
+                  Jailed Testing     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/overview.html">
+              <a href="../../workstation/jailed-testing/overview.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/supported-applications.html">
+              <a href="../../workstation/jailed-testing/supported-applications.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Supported Applications     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/advanced-functionality.html">
+              <a href="../../workstation/jailed-testing/advanced-functionality.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Advanced Functionality     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/faq.html">
+              <a href="../../workstation/jailed-testing/faq.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Frequently Asked Questions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/summary.html">
+              <a href="../../workstation/jailed-testing/summary.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Summary     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update.html">
+              <a href="../../workstation/ios-device-update.html">
+                <span>
+                  
+                    
+                  
+                  iOS Device Update     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/updating-nowsecure-cydia-packages.html">
+              <a href="../../workstation/ios-device-update/updating-nowsecure-cydia-packages.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updating NowSecure Cydia Packages     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/provisioning-an-ios-device.html">
+              <a href="../../workstation/ios-device-update/provisioning-an-ios-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Provisioning an iOS Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/factory-resetting-an-ios-device.html">
+              <a href="../../workstation/ios-device-update/factory-resetting-an-ios-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Factory Resetting an iOS Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item active" data-nav-id="/workstation/ios-device-update/jailbreak-an-ios-device.html">
+              <a href="../../workstation/ios-device-update/jailbreak-an-ios-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Jailbreak an iOS Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/updating-ios-test-devices.html">
+              <a href="../../workstation/ios-device-update/updating-ios-test-devices.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updating iOS Test Devices     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/android-device-update.html">
+              <a href="../../workstation/android-device-update.html">
+                <span>
+                  
+                    
+                  
+                  Android Device Update     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/android-device-update/factory-resetting-an-android-device.html">
+              <a href="../../workstation/android-device-update/factory-resetting-an-android-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Factory Resetting an Android Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/android-device-update/rooting-an-android-device.html">
+              <a href="../../workstation/android-device-update/rooting-an-android-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Rooting an Android Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/android-device-update/provisioning-an-android-device.html">
+              <a href="../../workstation/android-device-update/provisioning-an-android-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Provisioning an Android Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq.html">
+              <a href="../../workstation/faq.html">
+                <span>
+                  
+                    
+                  
+                  F.A.Q.     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/supported-devices.html">
+              <a href="../../workstation/faq/supported-devices.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Supported Devices     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/license-activation.html">
+              <a href="../../workstation/faq/license-activation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  License Activation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/device-provisioning-requirements.html">
+              <a href="../../workstation/faq/device-provisioning-requirements.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device Provisioning Requirements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/oss-components.html">
+              <a href="../../workstation/faq/oss-components.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  OSS Components     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/5-1-update.html">
+              <a href="../../workstation/faq/5-1-update.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  5.1 Update     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/compatible-wifi-adapters.html">
+              <a href="../../workstation/faq/compatible-wifi-adapters.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Compatible WiFi Adapters     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/troubleshooting.html">
+              <a href="../../workstation/troubleshooting.html">
+                <span>
+                  
+                    
+                  
+                  Troubleshooting     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+     
+
+    <section id="footer">
+      <center><p>© 2019 <a href="https://nowsecure.com" target="_blank">NowSecure</a>, Inc.</p><p>All Rights Reserved.</p></center>
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+                
+                
+                
+                
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
+                
+                
+                
+                  
+                    
+                    
+                <a href="../../workstation.html" itemprop="url"><span itemprop="title">Workstation</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                <span itemprop="title"> Jailbreak an iOS Device</span>
+              </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#ios-12-jailbreak-tutorial">iOS 12 Jailbreak Tutorial</a>
+<ul>
+<li><a href="#ios-12-0-12-2-and-12-4">iOS 12.0 - 12.2 and 12.4</a></li>
+</ul></li>
+<li><a href="#ios-11-jailbreak-tutorial">iOS 11 Jailbreak Tutorial</a>
+<ul>
+<li><a href="#ios-11-0-11-1-2">iOS 11.0 - 11.1.2</a></li>
+<li><a href="#ios-11-2-11-3-1">iOS 11.2 - 11.3.1</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#jailbreak-an-ios-10-10-2-device">Jailbreak an iOS 10 - 10.2 Device</a>
+<ul>
+<li><a href="#ios-10-jailbreak-tutorial">iOS 10 Jailbreak Tutorial</a></li>
+</ul></li>
+<li><a href="#jailbreak-an-ios-8-9-3-3-device">Jailbreak an iOS 8 - 9.3.3 Device</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+              
+
+            </div>
+            
+    	        <div id="body-inner">
+                
+                <h1>Jailbreak an iOS Device</h1>
+                
+
+
+
+<h3 id="ios-12-jailbreak-tutorial">iOS 12 Jailbreak Tutorial</h3>
+
+<h4 id="ios-12-0-12-2-and-12-4">iOS 12.0 - 12.2 and 12.4</h4>
+
+<p><strong>Additional Requirements:</strong></p>
+
+<p>A 64 bit device running iOS 12.0 - 12.2 or 12.4 which include:</p>
+
+<ul>
+<li><p>iPhone 5s</p></li>
+
+<li><p>iPhone SE</p></li>
+
+<li><p>iPhone 6</p></li>
+
+<li><p>iPhone 6 Plus</p></li>
+
+<li><p>iPhone 6s</p></li>
+
+<li><p>iPhone 6s Plus</p></li>
+
+<li><p>iPhone 7</p></li>
+
+<li><p>iPhone 7 Plus</p></li>
+
+<li><p>iPhone 8</p></li>
+
+<li><p>iPhone 8 Plus</p></li>
+
+<li><p>iPhone X</p></li>
+</ul>
+
+<p>These directions are intended to be used from within the MacBook.  Not the NowSecure Workstation VM.  Please turn off VMWare before you begin this process.</p>
+
+<ol>
+<li>Create an iTunes Backup of your iOS device</li>
+<li>Turn off Siri, Find My iPhone, TouchID, and pin code login.  Also logout of iCloud/iTunes if you had an account..</li>
+<li>Download Cydia Impactor from <a href="http://www.cydiaimpactor.com/">http://www.cydiaimpactor.com/</a></li>
+
+<li><p>Download the Chimera Jailbreak <a href="https://chimera.sh/downloads/ios/1.3.8-12.0-12.4.ipa">https://chimera.sh/downloads/ios/1.3.8-12.0-12.4.ipa</a></p>
+
+<ul>
+<li><strong>SHA1</strong>: <strong>c060f4af70f425a96847948bc05ab3e5264d092d</strong></li>
+</ul></li>
+
+<li><p>Create an Apple ID: <a href="https://appleid.apple.com/account#!&amp;page=create">https://appleid.apple.com/account#!&amp;page=create</a></p>
+
+<ul>
+<li>Make sure you have <strong>DISABLED</strong> 2-Factor Authentication on your Apple ID.</li>
+</ul></li>
+
+<li><p>With your iOS device connected to your computer and iTunes closed out, launch Cydia Impactor</p></li>
+
+<li><p>With Cydia Impactor launched, you will see the device name in top field of the window.
+<img src="../../images/content/impactor_1.png" alt="Impactor" /></p></li>
+
+<li><p>Drag the Electra 1.3.8.IPA on to the Impactor window.</p></li>
+
+<li><p>You will be prompted to enter an Apple ID.  Enter your Apple ID Username and Password.
+<img src="../../images/content/impactor_2.png" alt="Impactor" />
+<p>
+<img src="../../images/content/impactor_3.png" alt="Impactor" /></p></li>
+
+<li><p>Impactor will sign and sideload the IPA automatically to your device.</p></li>
+
+<li><p>On the iOS device go to <strong>Settings &gt; General &gt; Profile &amp; Device Management</strong>. Select the <strong>Email Address</strong> under the <code>Developer App</code> section.</p></li>
+</ol>
+
+<p><img src="../../images/content/verify1.png" width="300px"></p>
+
+<ol>
+<li>Click <strong>Trust <email-address></strong> on the screen.</li>
+</ol>
+
+<p><img src="../../images/content/verify2.png" width="300px"></p>
+
+<ol>
+<li>Click the <strong>Trust</strong> button in the <code>Trust &quot;iPhone Developer: &lt;email-address&gt;&quot; Apps on This iPhone</code> prompt</li>
+</ol>
+
+<p><img src="../../images/content/verify3.png" width="300px"></p>
+
+<ol>
+<li>Launch the Chimera app.</li>
+</ol>
+
+<p><img src="../../images/content/chimera.png"></p>
+
+<ol>
+<li>Press <strong>Jailbreak</strong> button.  Your device will begin jailbreaking and perform a reboot.</li>
+</ol>
+
+<p><img src="../../images/content/chimera1.png" width="300px"></p>
+
+<p><img src="../../images/content/chimera2.png" width="300px"></p>
+
+<p><img src="../../images/content/chimera10.jpg" width="300px"></p>
+
+<ol>
+<li>Once your device is back on, confirm you have access to the <strong>Sileo</strong> app.  Launch the Sileo app to confirm your device is jailbroken.</li>
+</ol>
+
+<p><img src="../../images/content/chimera3.png" width="300px"></p>
+
+<p><br/></p>
+
+<h3 id="ios-11-jailbreak-tutorial">iOS 11 Jailbreak Tutorial</h3>
+
+<h4 id="ios-11-0-11-1-2">iOS 11.0 - 11.1.2</h4>
+
+<p>These directions are intended to be used from within the MacBook.  Not the NowSecure Workstation VM.  Please turn off VMWare before you begin this process.</p>
+
+<ol>
+<li>Create an iTunes Backup of your iOS device</li>
+<li>Turn off Siri, Find My iPhone, TouchID, and pin code login.  Also logout of iCloud/iTunes if you had an account..</li>
+<li>Download Cydia Impactor from <a href="http://www.cydiaimpactor.com/">http://www.cydiaimpactor.com/</a></li>
+
+<li><p>Download the Electra Jailbreak <a href="https://github.com/coolstar/electra-ipas/raw/master/Electra%201.0.4.ipa">https://github.com/coolstar/electra-ipas/raw/master/Electra%201.0.4.ipa</a></p>
+
+<ul>
+<li><strong>SHA1</strong>: <strong>ff0dbd93f757a3d0d90b167000f79d36a7b9ee56</strong></li>
+</ul></li>
+
+<li><p>Create an Apple ID: <a href="https://appleid.apple.com/account#!&amp;page=create">https://appleid.apple.com/account#!&amp;page=create</a></p>
+
+<ul>
+<li>Make sure you have <strong>DISABLED</strong> 2-Factor Authentication on your Apple ID.</li>
+</ul></li>
+
+<li><p>With your iOS device connected to your computer and iTunes closed out, launch Cydia Impactor</p></li>
+
+<li><p>With Cydia Impactor launched, you will see the device name in top field of the window.
+<img src="../../images/content/impactor_1.png" alt="Impactor" /></p></li>
+
+<li><p>Drag the Electra 1.0.4.IPA on to the Impactor window.</p></li>
+
+<li><p>You will be prompted to enter an Apple ID.  Enter your Apple ID Username and Password.
+<img src="../../images/content/impactor_2.png" alt="Impactor" />
+<p>
+<img src="../../images/content/impactor_3.png" alt="Impactor" /></p></li>
+
+<li><p>Impactor will sign and sideload the IPA automatically to your device.</p></li>
+
+<li><p>On the iOS device go to <strong>Settings &gt; General &gt; Profile &amp; Device Management</strong>. Select the Email Address under the <code>Developer App</code> section.  Click <strong>Verify App</strong> on the screen.</p></li>
+</ol>
+
+<p><img src="../../images/content/verify_app.png" width="300px"></p>
+
+<ol>
+<li><p>Launch the Electra app.
+<img src="../../images/content/electra.png"></p></li>
+
+<li><p>Press <strong>Jailbreak</strong> button.  Your device will begin jailbreaking and perform a reboot.</p></li>
+</ol>
+
+<p><img src="../../images/content/electra_jailbreak0.png" width="300px"></p>
+
+<p><img src="../../images/content/electra_jailbreak.png" width="300px"></p>
+
+<ol>
+<li>Once your device is back on, confirm you have access to the Cydia app.  Launch the Cydia app the confirm your device is jailbroken.
+<img src="../../images/content/cydia_1.png" alt="Cydia" />
+<p>
+<img src="../../images/content/electra_jailbreak1.png" width="300px"></li>
+</ol>
+
+<h4 id="ios-11-2-11-3-1">iOS 11.2 - 11.3.1</h4>
+
+<p>These directions are intended to be used from within the MacBook.  Not the NowSecure Workstation VM.  Please turn off VMWare before you begin this process.</p>
+
+<ol>
+<li>Create an iTunes Backup of your iOS device</li>
+<li>Turn off Siri, Find My iPhone, TouchID, and pin code login.  Also logout of iCloud/iTunes if you had an account..</li>
+<li>Download Cydia Impactor from <a href="http://www.cydiaimpactor.com/">http://www.cydiaimpactor.com/</a></li>
+
+<li><p>Download the Electra Jailbreak <a href="https://raw.githubusercontent.com/coolstar/electra-ipas/master/Electra1131-1.0.3-vfs.ipa">https://raw.githubusercontent.com/coolstar/electra-ipas/master/Electra1131-1.0.3-vfs.ipa</a></p>
+
+<ul>
+<li><strong>SHA1</strong>: <strong>4c6e34a40621de2cd59cb3ebdf650307f7ccda93</strong></li>
+</ul></li>
+
+<li><p>Create an Apple ID: <a href="https://appleid.apple.com/account#!&amp;page=create">https://appleid.apple.com/account#!&amp;page=create</a></p>
+
+<ul>
+<li>Make sure you have <strong>DISABLED</strong> 2-Factor Authentication on your Apple ID.</li>
+</ul></li>
+
+<li><p>With your iOS device connected to your computer and iTunes closed out, launch Cydia Impactor</p></li>
+
+<li><p>With Cydia Impactor launched, you will see the device name in top field of the window.
+<img src="../../images/content/impactor_1.png" alt="Impactor" /></p></li>
+
+<li><p>Drag the Electra1131-1.0.3-vfs.IPA on to the Impactor window.</p></li>
+
+<li><p>You will be prompted to enter an Apple ID.  Enter your Apple ID Username and Password.
+<img src="../../images/content/impactor_2.png" alt="Impactor" />
+<p>
+<img src="../../images/content/impactor_3.png" alt="Impactor" /></p></li>
+
+<li><p>Impactor will sign and sideload the IPA automatically to your device.</p></li>
+
+<li><p>On the iOS device go to <strong>Settings &gt; General &gt; Profile &amp; Device Management</strong>. Select the Email Address under the <code>Developer App</code> section.  Click <strong>Verify App</strong> on the screen.</p></li>
+</ol>
+
+<p><img src="../../images/content/verify_app.png" width="300px"></p>
+
+<ol>
+<li><p>Launch the Electra app.
+<img src="../../images/content/electra.png"></p></li>
+
+<li><p>Press <strong>Jailbreak</strong> button.  Your device will begin jailbreaking and perform a reboot.</p></li>
+</ol>
+
+<p><img src="../../images/content/electra_jailbreak0.png" width="300px"></p>
+
+<p><img src="../../images/content/electra_jailbreak.png" width="300px"></p>
+
+<ol>
+<li>Once your device is back on, confirm you have access to the Cydia app.  Launch the Cydia app the confirm your device is jailbroken.
+<img src="../../images/content/cydia_1.png" alt="Cydia" />
+<p>
+<img src="../../images/content/electra_jailbreak1.png" width="300px"></li>
+</ol>
+
+<p><br/></p>
+
+<h2 id="jailbreak-an-ios-10-10-2-device">Jailbreak an iOS 10 - 10.2 Device</h2>
+
+<div class="notices note" ><p>This method is intended for use on 10.0-10.2 devices and utilizes the Yalu102 jailbreak method.  Ensure your device is running a compatible version before continuing._</p>
+</div>
+
+
+<p><strong>Requirements:</strong></p>
+
+<p>iOS Device running a jailbreakable version of iOS</p>
+
+<p><strong>iOS 10.0-10.2</strong></p>
+
+<p><strong>Additional Requirements:</strong></p>
+
+<p>A 64 bit device running iOS 10.0-10 which include:</p>
+
+<ul>
+<li><p>iPhone 5s</p></li>
+
+<li><p>iPhone 6</p></li>
+
+<li><p>iPhone 6+</p></li>
+
+<li><p>iPhone 6s</p></li>
+
+<li><p>iPhone 6s+</p></li>
+
+<li><p>iPhone SE</p></li>
+
+<li><p>iPad Mini 2</p></li>
+
+<li><p>iPad Mini 3</p></li>
+
+<li><p>iPad Mini 4</p></li>
+
+<li><p>iPad Air</p></li>
+
+<li><p>iPad Air 2</p></li>
+
+<li><p>iPad Pro (both sizes)</p></li>
+
+<li><p>iPod Touch 6G</p></li>
+</ul>
+
+<p><strong>A valid Apple ID.</strong></p>
+
+<ul>
+<li><p>The Apple ID can be one that was recently made.  It does not need to meet any special criteria</p></li>
+
+<li><p>WiFi connection for the iOS device.</p></li>
+</ul>
+
+<p><strong>Restrictions</strong></p>
+
+<p>An Apple ID is required to sign the ipa file so it may run on the device.  If you need to create and Apple ID, one can be created at <a href="https://appleid.apple.com/account">https://appleid.apple.com/account</a>. Due to the signing requirement and tethered jailbreak requirements, there are some limitations to consider:</p>
+
+<ul>
+<li><p>The certificate will expire in 7 days if you use a regular user Apple ID to sign the app</p></li>
+
+<li><p>A reboot will cause the device to lose it’s jailbreak.</p></li>
+
+<li><p>openSSH should not be used on your iOS 10 device, as it will break the device.  An alternate SSH daemon is used, called Dropbear.</p>
+
+<p><strong>DO NOT INSTALL OpenSSH</strong>.</p></li>
+</ul>
+
+<h3 id="ios-10-jailbreak-tutorial">iOS 10 Jailbreak Tutorial</h3>
+
+<p>These directions are intended to be used from within the MacBook.  Not the NowSecure Workstation VM.  Please turn off VMWare before you begin this process.</p>
+
+<ol>
+<li>Create an iTunes Backup of your iOS device</li>
+<li>Turn off Siri, Find My iPhone, TouchID, and pin code login.  Also logout of iCloud/iTunes if you had an account..</li>
+<li>Download Cydia Impactor from <a href="http://www.cydiaimpactor.com/">http://www.cydiaimpactor.com/</a></li>
+
+<li><p>Download the NowSecure Yalu102 Jailbreak from:   <a href="http://downloads.nowsecure.com/direct/ns-yalu102.ipa">http://downloads.nowsecure.com/direct/ns-yalu102.ipa</a></p>
+
+<ul>
+<li><p><strong>SHA256</strong>: <strong><em>48e21c0112b442cf77ef552101dcba65aa06ab86fef054d3a44eed31c8408ceb</em></strong></p></li>
+
+<li><p>We have modified the Yalu102 jailbreak for testing devices.  If you plan to download the Yalu102 Jailbreak for personal use, please download from the official release.</p></li>
+</ul></li>
+
+<li><p>Create an Apple ID: <a href="https://appleid.apple.com/account#!&amp;page=create">https://appleid.apple.com/account#!&amp;page=create</a></p>
+
+<ul>
+<li>Make sure you have <strong>DISABLED</strong> 2-Factor Authentication on your Apple ID.</li>
+</ul></li>
+
+<li><p>With your iOS device connected to your computer and iTunes closed out, launch Cydia Impactor</p></li>
+
+<li><p>With Cydia Impactor launched, you will see the device name in top field of the window.
+<img src="../../images/content/impactor_1.png" alt="Impactor" /></p></li>
+
+<li><p>Drag the ns-yalu102.IPA on to the Impactor window.</p></li>
+
+<li><p>You will be prompted to enter an Apple ID.  Enter your Apple ID Username and Password.
+<img src="../../images/content/impactor_2.png" alt="Impactor" />
+<p>
+<img src="../../images/content/impactor_3.png" alt="Impactor" /></p></li>
+
+<li><p>Impactor will sign and sideload the IPA automatically to your device.</p></li>
+
+<li><p>On the iOS device go to Settings&gt;General&gt; Device Management. Select the ns-yalu102 app.  Select ‘Trust’ on the screen.  A message asking to verify the trust will pop up.  Select ‘Trust’.
+<img src="../../images/content/trust.png" alt="Trust App" /></p></li>
+
+<li><p>Launch the yalu102 app.
+<img src="../../images/content/yalu.png" alt="Yalu Jailbreak" /></p></li>
+
+<li><p>When the app has been launched, you will see a prompt stating “May Slow Down Your iPhone”.  Press OK.
+<img src="../../images/content/yalu_1.png" alt="Yalu Jailbreak" /></p></li>
+
+<li><p>Press ‘Go’.  Your device will begin performing a reboot.
+<img src="../../images/content/yalu_2.png" alt="Yalu Jailbreak" /></p></li>
+
+<li><p>Once your device is back on, confirm you have access to the Cydia app.  Launch the Cydia app the confirm your device is jailbroken.
+<img src="../../images/content/cydia_1.png" alt="Cydia" />
+<p>
+<img src="../../images/content/yalu_3.png" alt="Yalu Jailbreak" /></p></li>
+</ol>
+
+<p><font size="6px"><b>Re-jailbreaking</b></font></p>
+
+<p>Due to the nature of this jailbreak, if an iOS device is rebooted, it loses it’s jailbreak.  To re-jailbreak the device, open the yalu102 app, select Go, lock the device, and allow the device to perform a soft reboot.  Once the device comes back on, the jailbreak will be in effect.
+If the app opens and does not have the Go option available, this means the jailbreak is already in effect.</p>
+
+<p>If the app does not open, and notifies you that it is not available, you will have to follow the steps in in Jailbreak Instructions.  Make sure to remove the yalu102 app from your homescreen before Jailbreaking your device again.</p>
+
+<p><br/></p>
+
+<h2 id="jailbreak-an-ios-8-9-3-3-device">Jailbreak an iOS 8 - 9.3.3 Device</h2>
+
+<div class="notices note" ><p>This method is intended for use on 8.0-9.3.3 devices and utilizes the Pangu/Taig jailbreak method.  Ensure your device is running a compatible version before continuing.</p>
+</div>
+
+
+<div class="notices note" ><p>Before jailbreaking, for best results, Disable &ldquo;Find My iPhone&rdquo; (if necessary) on your iOS device. Navigate to Settings &gt; iCloud &gt; Find My iPhone and turn off the &lsquo;Find My iPhone&rsquo; toggle.  Apple ID password is required to confirm.  Disable Passcode and Touch ID unlock.  You can achieve this by going to Settings &gt; Touch ID &amp; Passcode and then tapping on the &lsquo;Turn Passcode Off&rsquo; option.</p>
+</div>
+
+
+<p><strong>Requirements:</strong></p>
+
+<p>iOS Device running a jailbreakable version of iOS</p>
+
+<p><strong>iOS 9.2-9.3.3</strong></p>
+
+<p><strong>Additional Requirements:</strong></p>
+
+<p>A 64 bit device running iOS 9.2-9.3.3 which include:</p>
+
+<ul>
+<li><p>iPhone 5s</p></li>
+
+<li><p>iPhone 6</p></li>
+
+<li><p>iPhone 6+</p></li>
+
+<li><p>iPhone 6s</p></li>
+
+<li><p>iPhone 6s+</p></li>
+
+<li><p>iPhone SE</p></li>
+
+<li><p>iPad Mini 2</p></li>
+
+<li><p>iPad Mini 3</p></li>
+
+<li><p>iPad Mini 4</p></li>
+
+<li><p>iPad Air</p></li>
+
+<li><p>iPad Air 2</p></li>
+
+<li><p>iPad Pro (both sizes)</p></li>
+
+<li><p>iPod Touch 6G</p></li>
+</ul>
+
+<p><strong>A valid Apple ID.</strong></p>
+
+<ul>
+<li><p>The Apple ID can be one that was recently made.</p></li>
+
+<li><p>WiFi connection for the iOS device.</p></li>
+</ul>
+
+<p><strong>Restrictions:</strong></p>
+
+<p>The Pangu iOS 9.3.3 jailbreak has several restrictions relating to its persistence on devices, and the requirement of a cert for the app itself.</p>
+
+<p>A device will only remain in jailbreak until it is rebooted.  A soft reboot will not cause the jailbreak to dismiss, but a hard reboot will.  For however long a jailbreak device remains turned on without a hard reboot, that device will remain in jailbreak.</p>
+
+<p>An Apple ID is required to sign the ipa file so it may run on the device. If you need to create an Apple ID, one can be created at <a href="https://appleid.apple.com/account">https://appleid.apple.com/account</a>.  Due to the signing requirement, there are some limitations to consider:</p>
+
+<ul>
+<li><p>The certificate will expire in 7 days if you use a regular user Apple ID to sign the certificate.</p></li>
+
+<li><p>There is a limitation on the number of certificates that a regular user Apple ID can sign.</p></li>
+</ul>
+
+<p>If you have access to a developer membership, it is recommended to sign the ipa file with your own developer certification, which will prevent the certificate from expiring for up to 1 year.</p>
+
+<p>If you do not have a developer membership, there is a workaround.  The Pangu app allows you to use their embedded certificate to sign the application until April 2017.  The directions Pangu provides, referenced in Initial Jailbreak, show how this is performed. Before peforming the jailbreak, the app will have a check box option that. Select that check box if you wish to use their cert.  We recommend using this option if a developer membership is not available.</p>
+
+<p>It should be noted, even if the certificate expires, the device will not lose it’s jailbreak unless it is rebooted.  This means that as long as the device remains powered on and a hard reboot is not performed, the phone will remain in jailbreak.</p>
+
+<p><strong>Initial Jailbreak</strong></p>
+
+<p>We recommend following the directions located on <a href="http://en.pangu.io/help.html">http://en.pangu.io/help.html</a>.  Make sure you are able to connect your iOS device to your computer.</p>
+
+<p><strong>Re-jailbreaking</strong></p>
+
+<p>Due to the nature of this jailbreak, if an iOS device is rebooted, it loses its jailbreak.  To re-jailbreak the device, open the Pangu app , select Start, lock the device, and allow the device to perform a soft reboot.  Once the device comes back on, the jailbreak will be in effect.</p>
+
+
+      
+      </div>
+    
+
+    </div>
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="../../workstation/ios-device-update/factory-resetting-an-ios-device"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="../../workstation/ios-device-update/updating-ios-test-devices" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../../js/clipboard.min.js"></script>
+    <script src="../../js/perfect-scrollbar.min.js"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../../js/jquery.sticky-kit.min.js"></script>
+    <script src="../../js/featherlight.min.js"></script>
+    <script src="../../js/html5shiv-printshiv.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../../js/modernizr.custom.71422.js"></script>
+    <script src="../../js/learn.js"></script>
+    <script src="../../js/hugo-learn.js"></script>
+    
+
+    
+  </body>
+</html>
+

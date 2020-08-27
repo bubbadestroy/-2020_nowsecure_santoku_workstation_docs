@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en-us" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.19" />
+    <meta name="description" content="NowSecure Workstation Documentation">
+<meta name="author" content="NowSecure, Inc.">
+
+    <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Provisioning an Android Device</title>
+    <link href="../../css/nucleus.css" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/hybrid.css" rel="stylesheet">
+    <link href="../../css/featherlight.min.css" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="../../css/horsey.css" rel="stylesheet">
+    <link href="../../css/theme.css" rel="stylesheet">
+    <link href="../../css/hugo-theme.css" rel="stylesheet">
+    <script src="../../js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    
+
+  </head>
+  <body class="" data-url="/workstation/android-device-update/provisioning-an-android-device.html">
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://nowsecure.com" target="_blank">
+  <img src="../../images/logo.svg" />
+</a>
+
+    </div>
+    
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+      
+        
+        
+          
+            
+          
+        
+      
+      
+      
+      
+
+      
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/workstation.html">
+        <a href="../index.html">
+          <span>
+            
+              <b></b>
+            
+             Workstation
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started.html">
+              <a href="../../workstation/getting-started.html">
+                <span>
+                  
+                    
+                  
+                  Getting Started     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/hardware-software-requirements.html">
+              <a href="../../workstation/getting-started/hardware-software-requirements.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Hardware / Software Requirements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/obtaining-workstation.html">
+              <a href="../../workstation/getting-started/obtaining-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Step 1 Obtaining NowSecure Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/installing-workstation.html">
+              <a href="../../workstation/getting-started/installing-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Step 2 Installing NowSecure Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/running-workstation.html">
+              <a href="../../workstation/getting-started/running-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Step 3 Running Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/getting-started/updating-workstation.html">
+              <a href="../../workstation/getting-started/updating-workstation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updating NowSecure Workstation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview.html">
+              <a href="../../workstation/ui-overview.html">
+                <span>
+                  
+                    
+                  
+                  User Interface Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/artifact-viewer.html">
+              <a href="../../workstation/ui-overview/artifact-viewer.html">
+                <span>
+                  
+                    &nbsp;&#8226;
+                  
+                  Artifact Viewer     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/editors.html">
+              <a href="../../workstation/ui-overview/editors.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Editors     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/toolbar-buttons.html">
+              <a href="../../workstation/ui-overview/toolbar-buttons.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Toolbar Buttons     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/preferences.html">
+              <a href="../../workstation/ui-overview/preferences.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Preferences     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/backup-import-projects.html">
+              <a href="../../workstation/ui-overview/backup-import-projects.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Backup/Import Projects     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/updates.html">
+              <a href="../../workstation/ui-overview/updates.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updates     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/background-task-manager.html">
+              <a href="../../workstation/ui-overview/background-task-manager.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Background Task Manager     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/emulator.html">
+              <a href="../../workstation/ui-overview/emulator.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Emulator (Android Only)     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/device-manager.html">
+              <a href="../../workstation/ui-overview/device-manager.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device Manager     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/device-provisioning.html">
+              <a href="../../workstation/ui-overview/device-provisioning.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device Provisioning     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ui-overview/backup-and-restore.html">
+              <a href="../../workstation/ui-overview/backup-and-restore.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device / Emulator Backup and Restore     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide.html">
+              <a href="../../workstation/step-by-step-guide.html">
+                <span>
+                  
+                    
+                  
+                  Step-by-Step Guide     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/setup.html">
+              <a href="../../workstation/step-by-step-guide/setup.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Setup     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/network.html">
+              <a href="../../workstation/step-by-step-guide/network.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Network     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/forensics.html">
+              <a href="../../workstation/step-by-step-guide/forensics.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Forensics     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/code.html">
+              <a href="../../workstation/step-by-step-guide/code.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Code     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/advanced.html">
+              <a href="../../workstation/step-by-step-guide/advanced.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Advanced     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/step-by-step-guide/report.html">
+              <a href="../../workstation/step-by-step-guide/report.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Report     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing.html">
+              <a href="../../workstation/jailed-testing.html">
+                <span>
+                  
+                    
+                  
+                  Jailed Testing     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/overview.html">
+              <a href="../../workstation/jailed-testing/overview.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Overview     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/supported-applications.html">
+              <a href="../../workstation/jailed-testing/supported-applications.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Supported Applications     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/advanced-functionality.html">
+              <a href="../../workstation/jailed-testing/advanced-functionality.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Advanced Functionality     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/faq.html">
+              <a href="../../workstation/jailed-testing/faq.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Frequently Asked Questions     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/jailed-testing/summary.html">
+              <a href="../../workstation/jailed-testing/summary.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Summary     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update.html">
+              <a href="../../workstation/ios-device-update.html">
+                <span>
+                  
+                    
+                  
+                  iOS Device Update     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/updating-nowsecure-cydia-packages.html">
+              <a href="../../workstation/ios-device-update/updating-nowsecure-cydia-packages.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updating NowSecure Cydia Packages     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/provisioning-an-ios-device.html">
+              <a href="../../workstation/ios-device-update/provisioning-an-ios-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Provisioning an iOS Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/factory-resetting-an-ios-device.html">
+              <a href="../../workstation/ios-device-update/factory-resetting-an-ios-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Factory Resetting an iOS Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/jailbreak-an-ios-device.html">
+              <a href="../../workstation/ios-device-update/jailbreak-an-ios-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Jailbreak an iOS Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/ios-device-update/updating-ios-test-devices.html">
+              <a href="../../workstation/ios-device-update/updating-ios-test-devices.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Updating iOS Test Devices     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/android-device-update.html">
+              <a href="../../workstation/android-device-update.html">
+                <span>
+                  
+                    
+                  
+                  Android Device Update     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/android-device-update/factory-resetting-an-android-device.html">
+              <a href="../../workstation/android-device-update/factory-resetting-an-android-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Factory Resetting an Android Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/android-device-update/rooting-an-android-device.html">
+              <a href="../../workstation/android-device-update/rooting-an-android-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Rooting an Android Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item active" data-nav-id="/workstation/android-device-update/provisioning-an-android-device.html">
+              <a href="../../workstation/android-device-update/provisioning-an-android-device.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Provisioning an Android Device     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq.html">
+              <a href="../../workstation/faq.html">
+                <span>
+                  
+                    
+                  
+                  F.A.Q.     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/supported-devices.html">
+              <a href="../../workstation/faq/supported-devices.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Supported Devices     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/license-activation.html">
+              <a href="../../workstation/faq/license-activation.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  License Activation     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/device-provisioning-requirements.html">
+              <a href="../../workstation/faq/device-provisioning-requirements.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Device Provisioning Requirements     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/oss-components.html">
+              <a href="../../workstation/faq/oss-components.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  OSS Components     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/5-1-update.html">
+              <a href="../../workstation/faq/5-1-update.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  5.1 Update     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/faq/compatible-wifi-adapters.html">
+              <a href="../../workstation/faq/compatible-wifi-adapters.html">
+                <span>
+                  
+                    &nbsp&#8226;
+                  
+                  Compatible WiFi Adapters     </i></span>
+              </a>
+            </li>
+          
+          
+          
+            <li class="dd-item " data-nav-id="/workstation/troubleshooting.html">
+              <a href="../../workstation/troubleshooting.html">
+                <span>
+                  
+                    
+                  
+                  Troubleshooting     </i></span>
+              </a>
+            </li>
+          
+          
+        </ul>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+     
+
+    <section id="footer">
+      <center><p>© 2019 <a href="https://nowsecure.com" target="_blank">NowSecure</a>, Inc.</p><p>All Rights Reserved.</p></center>
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+                
+                
+                
+                
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
+                
+                
+                
+                  
+                    
+                    
+                <a href="../../workstation.html" itemprop="url"><span itemprop="title">Workstation</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                <span itemprop="title"> Provisioning an Android Device</span>
+              </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#using-the-nowsecure-device-provisioning-wizard">Using the NowSecure Device Provisioning Wizard</a></li>
+<li><a href="#updates-for-the-device-provisioner">Updates for the Device Provisioner</a></li>
+<li><a href="#legacy-method">Legacy Method</a></li>
+<li><a href="#using-the-nowsecure-workstation-device-provisioning-wizard-android">Using the NowSecure Workstation Device Provisioning Wizard (Android)</a></li>
+<li><a href="#choose-your-device-platform">Choose your device platform</a></li>
+<li><a href="#android-provisioning">Android provisioning</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+              
+
+            </div>
+            
+    	        <div id="body-inner">
+                
+                <h1>Provisioning an Android Device</h1>
+                
+
+
+
+<h3 id="using-the-nowsecure-device-provisioning-wizard">Using the NowSecure Device Provisioning Wizard</h3>
+
+<p>The device provisioner is a Mac OSX application that enables the provisioning of Android 6+. This does not run within the Workstation VM. Currently, supported devices are as follows:</p>
+
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Android Version(s)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Nexus 5X</td>
+<td>7</td>
+</tr>
+
+<tr>
+<td>Nexus 6</td>
+<td>7</td>
+</tr>
+
+<tr>
+<td>Nexus 6P</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+
+<ol>
+<li><p>Download the latest .dmg file from here: <a href="https://updates.nowsecure.com/wdp/download/">https://updates.nowsecure.com/wdp/download/</a></p></li>
+
+<li><p>Double-click the .dmg and copy the device provisioner icon into the the Applications folder.</p></li>
+
+<li><p>Double-click the device provisioner icon.</p></li>
+</ol>
+
+<p><img src="../../images/content/device-provisioner-1.png" alt="Android Device Provisioning" /></p>
+
+<p>Step through the initial screens, agreeing to the Terms and Conditions.</p>
+
+<p>The Unlock section walks through the instructions for ensuring that the bootloader is unlocked. This is a requirement for device provisioning and the process will fail if the bootloader remains locked. Using the refresh button near the top of the page, you can re-check for unlocked status. If the check comes back as false, use the the instructions provided to unlock the bootloader.</p>
+
+<p><img src="../../images/content/device-provisioner-2-unlock.png" alt="Android Device Provisioning" /></p>
+
+<p>The next section is Requirements. Ensure that all requirements are met. If a certain requirement is not met, copy/paste the appropriate install command into a Terminal window. Once complete, all the dependecies should show as installed (green).</p>
+
+<p><img src="../../images/content/device-provisioner-2.png" alt="Android Device Provisioning" /></p>
+
+<p>On the device selection page, the connected device (if any) will be automatically selected from the list. Otherwise, select the appropriate device and Android OS to continue.</p>
+
+<p><img src="../../images/content/device-provisioner-3.png" alt="Android Device Provisioning" /></p>
+
+<p>On the following page, you will see the option to provision the device. It is important that the device remain connected during the provisioning process, otherwise the device could end up in an odd state.</p>
+
+<p><img src="../../images/content/device-provisioner-4.png" alt="Android Device Provisioning" /></p>
+
+<p>Once complete, you will see a confirmation. From there, continue to the next page to complete any next steps (if any). If any errors occured during provisioning, a relevant error message will appaer. The provisioning process is now complete.</p>
+
+<p><img src="../../images/content/device-provisioner-5.png" alt="Android Device Provisioning" /></p>
+
+<h3 id="updates-for-the-device-provisioner">Updates for the Device Provisioner</h3>
+
+<p>New devices or additional Android OS support will come in the form of updates. An update mechanism has been built into the app, so all you need to do is wait for a confirmation. When an update is available, it is automatically downloaded, and will be installed on the next launch of the application.</p>
+
+<p><img src="../../images/content/device-provisioner-6.png" alt="Android Device Provisioning" /></p>
+
+<h3 id="legacy-method">Legacy Method</h3>
+
+<p><em>These instructions assume that you have already factory reset your device on 4.0.4 - 4.4.2 or that you have already rooted your 4.4.3+ device. Click for root instructions on <a href="../../workstation/android-device-update/factory-resetting-an-android-device/">Android 4.x/5.x</a> or <a href="../../workstation/android-device-update/factory-resetting-an-android-device/">Android 6</a>.</em></p>
+
+<p><strong>Android Device Provisioning</strong></p>
+
+<p>NowSecure Workstation 3.0+ now includes the ability to provision devices automatically. In order to do this, we must make certain assumptions about the device:</p>
+
+<p><strong>Android 4.0.4 - 4.3</strong></p>
+
+<p>In this case, NowSecure Workstation performs both the provisioning, and the rooting process automatically. You can start with a stock device, and NowSecure Workstation do the rest. Although we attempt to keep our list of supported devices up-to-date, it is best if your device is on this list.</p>
+
+<p><strong>Android 4.4+ and up</strong></p>
+
+<p>As mentioned previously, 4.4 devices will need to already be rooted, and have the SuperSU application installed. If you have already completed these steps, you will just need to walk-through the device provisioning wizard, which has been outlined below:</p>
+
+<h3 id="using-the-nowsecure-workstation-device-provisioning-wizard-android">Using the NowSecure Workstation Device Provisioning Wizard (Android)</h3>
+
+<p>There are two ways to start the Device Provisioning Wizard.</p>
+
+<ol>
+<li><p>Click the &ldquo;Device Manager&rdquo; button in the bottom-left of NowSecure Workstation. When in the Device Manager, click the button labeled &ldquo;Provision Device&rdquo;.</p></li>
+
+<li><p>Click Options-&gt;Device Manager in the options menu located in the top-right of NowSecure Workstation. When in the Device Manager, click the button labeled &ldquo;Provision Device.&rdquo;</p></li>
+</ol>
+
+<h3 id="choose-your-device-platform">Choose your device platform</h3>
+
+<p>On the page titled &ldquo;Getting started&rdquo; you will need to choose the platform of the device to be provisioned. This should be the platform (Android or iOS) of the mobile device connected to your computer.</p>
+
+<p><img src="../../images/content/device-provisioning-wizard.png" alt="Device Provisioning Wizard" /></p>
+
+<p>Before continuing you must agree to the terms.</p>
+
+<p><img src="../../images/content/agree-to-terms.png" alt="Terms of Service" /></p>
+
+<h3 id="android-provisioning">Android provisioning</h3>
+
+<p>Provisioning an Android device takes only 2 or 3 steps. There will be compatibility checks to ensure we can successfully provision the device and a provisioning step that will automatically provision your device.</p>
+
+<p>On the page titled &ldquo;Enable USB debugging&rdquo; follow steps 1-3 on your Android device to enable USB debugging. Then, click the button labeled &ldquo;Check&rdquo; in step 4 to verify USB debugging is enabled and that NowSecure Workstation can communicate with the attached device.</p>
+
+<p><img src="../../images/content/device-provising-wizard-1.png" alt="Device Provisioning Wizard" /></p>
+
+<p>On the page titled &ldquo;Check compatibility&rdquo;, click the button labeled &ldquo;Check&rdquo; to start the check. If the check fails, compare the Android version of your device with the requirements listed on the page(shown below).</p>
+
+<div class="notices info" ><p>Passing the compatibility check does NOT guarantee that provisioning will be successful. Not all devices have been tested using this provisioning process.</p>
+</div>
+
+
+<p><img src="../../images/content/android-provisioning-1.png" alt="Android Device Provisioning" /></p>
+
+<p>On the page titled &ldquo;Provision device&rdquo; click the button labeled &ldquo;Provision&rdquo; to start provisioning your device.</p>
+
+<p><img src="../../images/content/android-provisioning-2.png" alt="Android Device Provisioning" /></p>
+
+<p>A command output window (shown below) will show the provisioning progress. Once complete click on the button labeled &ldquo;Finished&rdquo; to continue.</p>
+
+<p><img src="../../images/content/android-provisioning-3.png" alt="Android Device Provisioning" /></p>
+
+<p>On the page titled &ldquo;You are finished&rdquo; you will see a dialog window (shown below) that you may see on your device. Follow the instructions to grant access and click the button labeled &ldquo;Close&rdquo; to close the Device Provisioning Wizard.</p>
+
+<p><img src="../../images/content/android-provisioning-4.png" alt="Android Device Provisioning" /></p>
+
+
+      
+      </div>
+    
+
+    </div>
+
+    <div id="navigation">
+        
+        <a class="nav nav-prev" href="../../workstation/android-device-update/rooting-an-android-device"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="../../workstation/video-tutorials" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../../js/clipboard.min.js"></script>
+    <script src="../../js/perfect-scrollbar.min.js"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../../js/jquery.sticky-kit.min.js"></script>
+    <script src="../../js/featherlight.min.js"></script>
+    <script src="../../js/html5shiv-printshiv.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../../js/modernizr.custom.71422.js"></script>
+    <script src="../../js/learn.js"></script>
+    <script src="../../js/hugo-learn.js"></script>
+    
+
+    
+  </body>
+</html>
+
