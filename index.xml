@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NowSecure Workstation Documentation</title>
+    <link>/index.xml</link>
+    <description>Recent content on NowSecure Workstation Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Aug 2017 01:00:00 -0500</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Workstation</title>
+      <link>/workstation.html</link>
+      <pubDate>Tue, 15 Aug 2017 01:00:00 -0500</pubDate>
+      
+      <guid>/workstation.html</guid>
+      <description>
+
+&lt;h3 id=&#34;welcome&#34;&gt;Welcome&lt;/h3&gt;
+
+&lt;h1 id=&#34;nowsecure-workstation&#34;&gt;NowSecure Workstation&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/welcome.png&#34; alt=&#34;Welcome&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to the NowSecure Workstation User Guide. The resources presented here should allow you to maximize your NowSecure Workstation experience and help you resolve common issues.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>/workstation/getting-started.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/getting-started.html</guid>
+      <description>
+
+&lt;h1 id=&#34;nowsecure-workstation&#34;&gt;NowSecure Workstation&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/welcome.png&#34; alt=&#34;Welcome&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This guide will help you getting started with NowSecure Workstation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hardware / Software Requirements</title>
+      <link>/workstation/getting-started/hardware-software-requirements.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/getting-started/hardware-software-requirements.html</guid>
+      <description>
+
+&lt;h2 id=&#34;nowsecure-workstation-system-requirements&#34;&gt;NowSecure Workstation System Requirements:&lt;/h2&gt;
+
+&lt;p&gt;NowSecure Workstation is designed to run on Ubuntu 16.04, and is distributed as a Virtual Machine (VM). The VM has been pre-loaded with all the needed FOSS tools to streamline mobile application security testing, while minimizing the time spent configuring different tools.&lt;/p&gt;
+
+&lt;p&gt;Purchases of NowSecure Workstation have the option of including a Macbook that comes pre-provisioned and ready to go out of the box. In these instances, the VM is loaded and configured following the listed specifications below.&lt;/p&gt;
+
+&lt;p&gt;For setups that do not include the pre-provisioned Macbook the following specifications are recommended:&lt;/p&gt;
+
+&lt;h3 id=&#34;os&#34;&gt;OS&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;VM Instance running using VMware Fusion (8.5+) with a minimum of 4GB of assigned virtual memory.&lt;/li&gt;
+&lt;li&gt;Based on Ubuntu 16.04 (64-bit)&lt;/li&gt;
+&lt;li&gt;Mac OS X 10.12 or later (host OS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;system&#34;&gt;System&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apple Macbook Pro with equivalent or better specifications:&lt;/li&gt;
+&lt;li&gt;2.4GHz+ Processor&lt;/li&gt;
+&lt;li&gt;8GB memory&lt;/li&gt;
+&lt;li&gt;256GB HDD Space&lt;/li&gt;
+&lt;li&gt;VMware Fusion (8.5 or later)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;usb&#34;&gt;USB&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(Min) Two (2) USB 2.0 or 3.0 ports&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;internet-adapter&#34;&gt;Internet Adapter&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;USB Wi-Fi adapter provided&lt;/li&gt;
+&lt;li&gt;Ethernet or WiFi connection (USB WiFi adapter included with purchase)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installing-vmware-fusion-on-mac-osx&#34;&gt;Installing VMware Fusion on Mac OSX:&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;If you already have VMWare Fusion installed, please skip ahead to &lt;a href=&#34;./workstation/step-1-obtain-nowsecure-workstation&#34;&gt;Step 1: Obtaining NowSecure Workstation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have a Macbook that you plan to use with NowSecure Workstation, the next step is to install VMware Fusion. You can either obtain a license key directly from VMware, or sign-up for a 30-day trial. In either case, you will need to obtain the software:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.vmware.com/try-vmware&#34;&gt;http://www.vmware.com/try-vmware&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once on the page, scroll down to the &amp;ldquo;Personal Desktop&amp;rdquo; heading and select &amp;ldquo;VMware Fusion.&amp;rdquo; The download will begin momentarily.&lt;/p&gt;
+
+&lt;p&gt;When the download completes, double-click the VMwareFusion.dmg file to being the installation. From there, follow the on-screen instructions to complete the install. When complete, you are ready to move on to Step 1.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Step 1 Obtaining NowSecure Workstation</title>
+      <link>/workstation/getting-started/obtaining-workstation.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/getting-started/obtaining-workstation.html</guid>
+      <description>
+
+&lt;h2 id=&#34;nowsecure-workstation-download&#34;&gt;NowSecure Workstation Download:&lt;/h2&gt;
+
+&lt;p&gt;The NowSecure Workstation VM can be obtained using this link:&lt;/p&gt;
+
+&lt;p&gt;VM: &lt;a href=&#34;http://downloads.nowsecure.com/direct/Nowsecure-Workstation.zip&#34;&gt;http://downloads.nowsecure.com/direct/Nowsecure-Workstation.zip&lt;/a&gt; (2.8 GB)
+md5: 81acec5818898b0d9973e8ec9877f647&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: The full version requires a specific license key to activate, which should have been provided in your welcome email. If you did not receive this key, and are a new/current Enterprise customer, please email &lt;a href=&#34;mailto:support@nowsecure.com&#34;&gt;support@nowsecure.com&lt;/a&gt; for immediate assistance.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From here, you are ready to move onto the next step, which is to &lt;a href=&#34;./workstation/getting-started/installing-workstation&#34;&gt;install NowSecure Workstation&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Step 2 Installing NowSecure Workstation</title>
+      <link>/workstation/getting-started/installing-workstation.html</link>
+      <pubDate>Tue, 15 Aug 2017 01:00:00 -0500</pubDate>
+      
+      <guid>/workstation/getting-started/installing-workstation.html</guid>
+      <description>
+
+&lt;h2 id=&#34;step-2-installing-nowsecure-workstation&#34;&gt;Step 2: Installing NowSecure Workstation&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;This step assumes that you have downloaded the VM.ZIP file to your computer. If you haven&amp;rsquo;t downloaded the VM.ZIP file, please see the previous step: &lt;a href=&#34;./workstation/getting-started/obtaining-workstation&#34;&gt;Obtaining the NowSecure Workstation Software&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The standard supported setup includes a MacBook Pro running VMWare Fusion 8.5+. These instructions have been tailored to that setup. If you are unable to use MacOSX as a host operating system, please reference our NowSecure Workstation system requirements for alternative options:&lt;/p&gt;
+
+&lt;h3 id=&#34;starting-lab-worksation-from-the-pre-built-vm&#34;&gt;Starting Lab Worksation from the Pre-built VM&lt;/h3&gt;
+
+&lt;p&gt;With the pre-built VM, all the legwork has already been completed. As long as you have already installed VMWare Fusion, you simply just need to unzip the &amp;ldquo;ns-workstation.zip&amp;rdquo; file, open it, and double click on the &amp;ldquo;NowSecure-Workstation&amp;rdquo; VMWare file (you should recognize the Fusion icon). Once launched, the environment will spin up and you can continue the setup process.&lt;/p&gt;
+
+&lt;p&gt;It is recommended that you install the latest OS updates. You can do this by searching for &lt;em&gt;Software Updater&lt;/em&gt; in Ubuntu search.&lt;/p&gt;
+
+&lt;h3 id=&#34;logging-in-for-the-first-time&#34;&gt;Logging in for the First Time&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/logging-in-first-time.png&#34; alt=&#34;Logging in for the First Time&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The default username is automatically set as &amp;ldquo;analyst&amp;rdquo; and the default password is set as &lt;strong&gt;nowsecure&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you are able to login, please see the last step in the setup, which is &lt;a href=&#34;./workstation/getting-started/running-workstation&#34;&gt;Running NowSecure Workstation for the First Time&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Step 3 Running Workstation</title>
+      <link>/workstation/getting-started/running-workstation.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/getting-started/running-workstation.html</guid>
+      <description>
+
+&lt;h2 id=&#34;step-3-running-workstation-for-the-first-time&#34;&gt;Step 3: Running Workstation for the First Time&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Before proceeding, make sure you have successfully installed NowSecure Workstation and have logged into the Ubuntu OS. If you haven&amp;rsquo;t installed it yet, check out &lt;a href=&#34;./workstation/getting-started/installing-nowsecure-workstation&#34;&gt;Installing Workstation&lt;/a&gt;. Also, you will want to make sure you have an activated license, otherwise Workstation will not launch. For more details on licensing, check out &lt;a href=&#34;./workstation/faq/license-activation&#34;&gt;License Activation&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/running-lab-first-time.png&#34; alt=&#34;Running NowSecure Workstation for the First Time&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before launching NowSecure Workstation, make sure the following items have been completed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ensure that only ONE device (Android/iOS) is connected to the system.&lt;/li&gt;
+&lt;li&gt;Ensure that the USB WiFi adapter is plugged-in/passed-though to the system.&lt;/li&gt;
+&lt;li&gt;Ensure the system is connected to the Internet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have verified the previous steps, you can then launch NowSecure Workstation by double-clicking the icon on the Desktop. A splash screen will appear to show that NowSecure Workstation is launching.&lt;/p&gt;
+
+&lt;p&gt;Initially, NowSecure Workstation will ask prompt for the user password, which is the same password you used to login. By default, this password is &lt;strong&gt;nowsecure&lt;/strong&gt;. The system will run a series of checks to determine if all of the required devices are connected properly, and that all necessary packages are currently installed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/system-check-status.png&#34; alt=&#34;System Check&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;If you run into issues during the system check on the first launch of Lab Workstation, check out &lt;em&gt;System Check Fails&lt;/em&gt; in the &lt;a href=&#34;./workstation/troubleshooting&#34;&gt;FAQ&lt;/a&gt;  for more detail on how to fix it.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;From here, much of the assessment process can be accessed though our built-in help guide. This will walk you through the different components and features of Workstation, while providing an overview of how these tests can be performed. The guide can be found under Options-&amp;gt;Help or by using the keyboard shortcut: &lt;code&gt;Ctrl+H&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/help_page.png&#34; alt=&#34;Workstation Help&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updating NowSecure Workstation</title>
+      <link>/workstation/getting-started/updating-workstation.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/getting-started/updating-workstation.html</guid>
+      <description>
+
+&lt;h2 id=&#34;nowsecure-workstation-updates&#34;&gt;NowSecure Workstation Updates&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Updates will require a connection to the internet&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;strong&gt;Options&lt;/strong&gt; in the upper right hand corner of  the Workstation UI.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Select &lt;strong&gt;Check for Updates&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;If an update is available, you&amp;rsquo;ll be prompted to update and install the newest NowSecure Workstation version.&lt;/li&gt;
+&lt;li&gt;If no update is available, a notification will inform you that you are running the latest available version.​&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When the update is downloaded and installed, click on “Restart” to relaunch the application. You will now be running the latest updated version.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you have any questions or require more information on the update process, please do not hesitate to contact us directly.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contact-nowsecure&#34;&gt;Contact NowSecure&lt;/h2&gt;
+
+&lt;p&gt;If the steps described on this page do not resolve your issues, or if you are experiencing problems not listed here, please contact NowSecure directly so we can better assist you:&lt;/p&gt;
+
+&lt;p&gt;email: &lt;a href=&#34;mailto:support@nowsecure.com&#34;&gt;support@nowsecure.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;phone: &lt;a href=&#34;tel:+13128781100&#34;&gt;+1 (312)-878-1100&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>User Interface Overview</title>
+      <link>/workstation/ui-overview.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;./images/content/workstation-ui.png&#34; alt=&#34;NowSecure Workstation UI Overview&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Artifact Viewer</title>
+      <link>/workstation/ui-overview/artifact-viewer.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview/artifact-viewer.html</guid>
+      <description>
+
+&lt;p&gt;The Artifact Viewer offers a variety of features letting the analyst explore, in detail, each artifact processed by NowSecure Workstation. This allows for a deeper analysis and custom findings in order to deliver the most complete mobile application security assessment.&lt;/p&gt;
+
+&lt;h2 id=&#34;toolbar-buttons&#34;&gt;Toolbar Buttons&lt;/h2&gt;
+
+&lt;p&gt;You can create findings, notes, and outputs directly from the Artifact Viewer using the toolbar at the top-left corner of the window:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/toolbar-buttons.png&#34; alt=&#34;Toolbar Buttons&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Using your mouse, highlight any section you would like to save as an finding, note or output and click on the appropriate button.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;data-viewer&#34;&gt;Data Viewer&lt;/h2&gt;
+
+&lt;p&gt;The Artifact Viewer embeds several ways to view your artifact file data:&lt;/p&gt;
+
+&lt;h3 id=&#34;native-viewer&#34;&gt;Native Viewer&lt;/h3&gt;
+
+&lt;p&gt;For certain file types (XML, Databases, Log files&amp;hellip;), Workstation has a built-in viewer that allows you to browse the data easily:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/data-viewer.png&#34; alt=&#34;Data Viewer&#34; /&gt;&lt;img src=&#34;./images/content/data-viewer-1.png&#34; alt=&#34;Data Viewer&#34; /&gt;&lt;img src=&#34;./images/content/data-viewer-2.png&#34; alt=&#34;Data Viewer&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;traffic-analyzer-mitm-ssl-proxy-tests&#34;&gt;Traffic Analyzer (MITM / SSL Proxy Tests)&lt;/h3&gt;
+
+&lt;p&gt;Upon clicking on an artifact created during the MITM or the SSL Proxy test, you will be presented with a terminal-like interface that will allow you to interactively look at the traffic recorded.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/traffic-analyzer.png&#34; alt=&#34;Traffic Analyzer&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click inside the terminal interface and use the following keyboard shortcut to navigate and interact with the traffic information:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Up&lt;/code&gt; &lt;code&gt;Down&lt;/code&gt; or &lt;code&gt;k&lt;/code&gt; &lt;code&gt;j&lt;/code&gt; to navigate up/down.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Left&lt;/code&gt; &lt;code&gt;Right&lt;/code&gt; or &lt;code&gt;h&lt;/code&gt; &lt;code&gt;l&lt;/code&gt; to navigate left/right&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Space&lt;/code&gt; to go directly to the next page&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Enter&lt;/code&gt; to select a specific HTTP frame to analyze.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;tab&lt;/code&gt; to switch between tabs (context-specific, works to switch from request to the response for example).&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;q&lt;/code&gt; to go back to the previous screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;?&lt;/code&gt; to display more keyboard shortcuts and explore advanced options.&lt;/p&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;If the keyboard shortcuts don&amp;rsquo;t seem to work, make sure you clicked on the terminal interface and try again.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;When you press &lt;code&gt;Enter&lt;/code&gt; on a specific frame, you can see the details of this specific part of the traffic:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/mitmproxy.png&#34; alt=&#34;MITMProxy&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can press &lt;code&gt;Tab&lt;/code&gt; to toggle between the request and the response and use the key shortcuts displayed above, as well as the ones shown when pressing &lt;code&gt;?&lt;/code&gt; to interact further with that specific frame:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/mitmproxy-1.png&#34; alt=&#34;MITMProxy&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The interface described in this section is based on the mitmproxy project. For more information about mitmproxy, please visit the official webpage found here: &lt;a href=&#34;http://mitmproxy.org/&#34;&gt;mitmproxy project page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;hex-viewer&#34;&gt;Hex Viewer&lt;/h3&gt;
+
+&lt;p&gt;Workstation also offers an Hex View, available with all types of files, in order to look at hex data that can reveal hidden code or artifacts:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/hex-viewer.png&#34; alt=&#34;Hex Viewer&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;strings&#34;&gt;Strings&lt;/h3&gt;
+
+&lt;p&gt;You can also extract strings from a file in order to filter readable-only text. Several options, like the minimum length of the string or the type of encoding you want to search for:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/strings.png&#34; alt=&#34;Strings&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
+
+&lt;p&gt;A search feature is also embedded in the Artifact Viewer. Just type your keyword and press &amp;ldquo;Search&amp;rdquo;. If matches are found, you can highlight any of them and click on &amp;ldquo;View in Hex&amp;rdquo; to jump directly to the location where that string was found in the file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/search.png&#34; alt=&#34;Search&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Editors</title>
+      <link>/workstation/ui-overview/editors.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview/editors.html</guid>
+      <description>
+
+&lt;p&gt;While stepping through the NowSecure Workstation sections, you will notice that there are some automated test results populated in the results treeview on the left. These are NowSecure Workstation&amp;rsquo;s automated findings, and include items such as MITM Test, SSL Strip, Found Sensitive Data, and more. A default risk level is assigned; however, it is ultimately up to the analyst to determine what risk level is appropriate for each finding. Furthermore, we encourage analysts to create their own findings, notes, etc. through additional manual forensic analysis, advanced code testing using the remote shell, or other options provided through the Workstation interface.&lt;/p&gt;
+
+&lt;p&gt;This section outlines how to view, create, edit, or delete the following: Findings, Notes, Screenshot, and Output.&lt;/p&gt;
+
+&lt;h2 id=&#34;view&#34;&gt;View&lt;/h2&gt;
+
+&lt;p&gt;To view any of the results in the results treeview on the left, click the result and its contents will be displayed in the Editor pane (bottom right section within NowSecure Workstation).
+&lt;center&gt;A click on one result in the tree-view:&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/view.png&#34; alt=&#34;View&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;will populate its information directly in the Editors pane:&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/editors-pane.png&#34; alt=&#34;Editors Pane&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;Clicking on an &amp;ldquo;artifact&amp;rdquo; item will automatically pop-up the Artifact Viewer. Please refer to the &amp;ldquo;Artifact Viewer&amp;rdquo; help section for more details&lt;/div&gt;
+
+
+&lt;h2 id=&#34;create&#34;&gt;Create&lt;/h2&gt;
+
+&lt;p&gt;Within the Editor window, you have the option to create a Finding, Screenshot, Note, or Output.&lt;/p&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Prior to creating an item, you must first decide in which of the Report sections you’d like this item to be displayed.
+&lt;br/&gt; &lt;br/&gt;Click on the section tab of your choice at the top of the NowSecure Workstation window to select the location where your item will be created.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;For example, to create a new finding under &amp;ldquo;Forensics&amp;rdquo;, you can follow those simple steps:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select the “Forensics” tab at the top of your window&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In the Editor pane at the bottom, select the item you wish to create (in this case, “Finding”)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on the “New” button in the bottom-right of the editor&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/finding.png&#34; alt=&#34;Findings&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fill in the requested information – in this case, a title for your finding, the section where you want to save your finding, a description, and assign a CVSS value (or risk level).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;./uploads/finding-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Notice that you can choose to save your finding in any section of your choosing at any time during the assessment. To do so, just select the section of your choice in the &amp;ldquo;Section&amp;rdquo; dropdown menu, and upon clicking on the save button, your element will either be created (for a new finding) or moved (for an existing one) inside the section you chose.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;Click on the “Save” button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/finding.png&#34; alt=&#34;Findings&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Your new finding will be populated in the appropriate folder in the results treeview on the left (in this case, it will fall under the “Forensics” folder).&lt;/p&gt;
+
+&lt;h2 id=&#34;edit&#34;&gt;Edit&lt;/h2&gt;
+
+&lt;p&gt;The Editor panel allows you to modify any existing items on the left tree view.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To edit any of these items, perform the following steps:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Click on the item in the results treeview to display its properties in the Editor pane&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Modify any of the fields that you wish to change (description, title&amp;hellip;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the “Save” button.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The modifications will be applied, and the result on the left will be overwritten with the new updated one.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Toolbar Buttons</title>
+      <link>/workstation/ui-overview/toolbar-buttons.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview/toolbar-buttons.html</guid>
+      <description>
+
+&lt;p&gt;This page will guide you through the different steps in the Setup tab.&lt;/p&gt;
+
+&lt;h2 id=&#34;main-buttons&#34;&gt;Main Buttons&lt;/h2&gt;
+
+&lt;p&gt;Four buttons are used to manage projects, assessments and perform some troubleshooting actions:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/main-buttons.png&#34; alt=&#34;Main Buttons&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;New – Create a new project or assessment&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open – Open a previously created project&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Save – Save the state of your assessment/project at any time&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Delete – Delete a finding, screenshot, note, artifact, or assessment.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the item you wish to delete from the tree-view on the left-hand side of the user interface., then select the “Delete” icon&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;WiFi Troubleshooting – Performs a reset of the network wifi connection in NowSecure Workstation and on your device.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;additional-buttons&#34;&gt;Additional Buttons&lt;/h2&gt;
+
+&lt;p&gt;Three additional buttons are shown when you open or create a project. They are used to launch the mobile agent, generate your report and view the Background Task Manager at any time during the security assessment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/additional-buttons.png&#34; alt=&#34;Additional Buttons&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Additional buttons described here are only available after creating or opening a project.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Launch agent – Launch the agent to perform various functions such as viewing device info, installed apps, running processes, device keychain, create screenshots, and more. Many of these functions are incorporated within other tabs throughout the analysis process.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Generate Report – Generate your Workstation report for all assessments in the project.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Background Task Manager – Launch the Background Task Manager (see the Background Task Manager help section for more information)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;options-preferences&#34;&gt;Options/Preferences&lt;/h2&gt;
+
+&lt;p&gt;A menu with the the different NowSecure Workstation options and preferences is available on the left of the toolbar:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/options.png&#34; alt=&#34;Options/Preferences&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Log – View different log messages generated by NowSecure Workstation. It is also possible to send to NowSecure Support a log summary, allowing for futher troubleshooting and debugging if needed.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Preferences – Set analyst and company name as well as a logo to be automatically included in the reports generated by NowSecure Workstation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;System Check – Runs a series of tests to ensure that NowSecure Workstation has the necessary connections/permissions to run a vulnerability assessment&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Backup Project(s) – Allows projects to be archived as .zip files&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Import Project(s) – Allows projects that have been previously backed up to be imported&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Check for Updates – Provides an automated check to ensure that NowSecure Workstation is up-to-date&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Device Manager - Launch the Device Manager allowing to review your device status.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Help – Contains User Guide, Troubleshooting steps, and other helpful information about the software&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;About – Contains NowSecure Workstation version information&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Quit – Exits NowSecure Workstation&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preferences</title>
+      <link>/workstation/ui-overview/preferences.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview/preferences.html</guid>
+      <description>
+
+&lt;p&gt;This page will guide you through the different options in the Preferences window. Preferences can be accessed from &lt;em&gt;Options-&amp;gt;Preferences&lt;/em&gt; from the upper-right corner of the NowSecure Workstation UI:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./uploads/preferences-menu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;General&lt;/strong&gt; – Customize the report by editing the Company Name, Analyst Name, and Company Logo, and enable/disable options for sending usage information to NowSecure and desktop notifications.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Emulator&lt;/strong&gt; – Enable/Disable an Android emulator for use in Android assessments.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Network&lt;/strong&gt; – Modify the default interfaces, SSID, password, and channel or the Lab-WiFi network.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Startup&lt;/strong&gt; – Toggle various activities that launch on startup.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Report&lt;/strong&gt; - Change the default CVSS range for scoring vulnerabilities and modify, import, export, or reset the NowSecure Workstation findings template.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;findings-template&#34;&gt;Findings Template&lt;/h2&gt;
+
+&lt;p&gt;Under &lt;em&gt;Preferences-&amp;gt;Report-&amp;gt;Modify&lt;/em&gt; you will find the Findings Template. Listed here will be all the default findings that NowSecure Workstation generates.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./uploads/report-findings-template.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To modify a finding, select the name in the list and click &lt;em&gt;Edit&lt;/em&gt; in the upper-right corner of the window. From there, you can change &lt;em&gt;Name&lt;/em&gt;, &lt;em&gt;CVSS&lt;/em&gt;, &lt;em&gt;Description&lt;/em&gt;, &lt;em&gt;Recommendation&lt;/em&gt;, and &lt;em&gt;Regulatory&lt;/em&gt; mappings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./uploads/report-findings-template-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Updating findings within the Findings Template will not change existing projects or any finding that has already been generated. The new finding will only be applied to future assessments as findings are generated.&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Backup/Import Projects</title>
+      <link>/workstation/ui-overview/backup-import-projects.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview/backup-import-projects.html</guid>
+      <description>
+
+&lt;p&gt;This page will guide you through creating a backup from an existing project and importing a previously created backup.&lt;/p&gt;
+
+&lt;h2 id=&#34;backup-project-s&#34;&gt;Backup Project(s)&lt;/h2&gt;
+
+&lt;p&gt;To begin the backup process, select &amp;ldquo;Backup Project(s)&amp;rdquo; from the drop down menu located under options.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/backup-projects.png&#34; alt=&#34;Backup Project&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once clicked, a project window will be displayed that lists all projects that have been populated into Workstation. The analyst can choose to backup a single project, or backup all projects. For a single project, simply click on the desired project, and select “Backup.” Selecting “Backup All” will select all projects by default, regardless of what is highlighted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/projects.png&#34; alt=&#34;Backup Project&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A file directory will appear where the analyst can select the location to save the archived project, and specify a name for it as well.&lt;/p&gt;
+
+&lt;h2 id=&#34;import-project-s&#34;&gt;Import Project(s)&lt;/h2&gt;
+
+&lt;p&gt;The Import Projects feature allows you to import any previously exported projects that were created using the “Backup Projects” feature. This can be performed by selecting “Import Project(s)” under the Options menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/import-projects.png&#34; alt=&#34;Import Project&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Upon selecting “Import Projects”, a file directory will appear. Navigate to the exported backup, and select it. Click “Import” to populate the project into NowSecure Workstation. A confirmation will appear on screen when the import has been completed.&lt;/p&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Importing a &amp;ldquo;Backup All&amp;rdquo; .zip file will fail if a project with the same name already exists. To prevent this, either ensure that no projects are named the same, or check the &amp;ldquo;Overwrite local project(s)&amp;rdquo; option.&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Updates</title>
+      <link>/workstation/ui-overview/updates.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview/updates.html</guid>
+      <description>
+
+&lt;p&gt;This page will guide you through updating NowSecure Workstation.&lt;/p&gt;
+
+&lt;h2 id=&#34;update-procedure&#34;&gt;Update Procedure&lt;/h2&gt;
+
+&lt;p&gt;The software package management feature will provide updates to the NowSecure Workstation solution. To check for an update, click “Check for Updates” under the Options menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/updates.png&#34; alt=&#34;Check for Updates&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once clicked, NowSecure Workstation will start looking for updates. If the current version is not the latest, a window will appear with the available update.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/update-available.png&#34; alt=&#34;Update Available&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The analyst can choose to back up all projects, before performing the update. See Backup/Import Projects for more information on backups.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;When an update is available and the &amp;ldquo;Update&amp;rdquo; button is clicked, the analyst will be prompted to enter a username and password. These credentials should have been provided with the initial NowSecure Workstation package. If you are unable to download updates, or have forgotten your login credentials, please contact &lt;a href=&#34;mailto:support@nowsecure.com&#34;&gt;support@nowsecure.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Background Task Manager</title>
+      <link>/workstation/ui-overview/background-task-manager.html</link>
+      <pubDate>Tue, 07 Nov 2017 23:00:00 -0600</pubDate>
+      
+      <guid>/workstation/ui-overview/background-task-manager.html</guid>
+      <description>
+
+&lt;p&gt;The Background Task Manager allows you to view, manage and organize tasks run in the background by NowSecure Workstation.&lt;/p&gt;
+
+&lt;h2 id=&#34;launching-the-background-task-manager&#34;&gt;Launching the Background Task Manager&lt;/h2&gt;
+
+&lt;p&gt;The Background Task Manager can be launched at any time from the main Workstation toolbar by pressing the button shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/launching-background-task-manager.png&#34; alt=&#34;Launch Task Manager&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This will open the Background Task Manager and you will be presented with its main interface:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/task-manager.png&#34; alt=&#34;Task Manager&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Please note that the Background Task Manager only lists tasks run in the background by NowSecure Workstation. If no tasks are currently running, the &amp;ldquo;Tasks&amp;rdquo; section will be empty. You can review tasks already run in the &amp;ldquo;History&amp;rdquo; tab.&lt;br /&gt;
+&lt;br/&gt;Also, please note that updated progress will be displayed as available and may take time. A progress bar not moving (even at 0%) does NOT in itself indicate a frozen task.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;manage-running-tasks&#34;&gt;Manage Running Tasks&lt;/h2&gt;
+
+&lt;p&gt;The &amp;ldquo;Tasks&amp;rdquo; tab will display the currently running task as well as all tasks queued for execution once the running task finishes. You can quickly review the status of each task by looking at the &amp;ldquo;Status&amp;rdquo; column. You can also review the time elapsed since the task was started, its progress while being run, and when a potential timeout will occur if the task takes an unreasonable amount of time to complete.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/task-manager-1.png&#34; alt=&#34;Task Manager&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;cancel-tasks&#34;&gt;Cancel Tasks&lt;/h2&gt;
+
+&lt;p&gt;The Background Task Manager allows you to easily cancel any running or queued tasks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can cancel a task individually by right-clicking on it and clicking &amp;ldquo;Cancel&amp;rdquo;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/cancel-tasks.png&#34; alt=&#34;Cancel Tasks&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also cancel all tasks in the queue, including any running ones, by clicking on the &amp;ldquo;Kill All&amp;rdquo; button.:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/cancel-tasks-1.png&#34; alt=&#34;Cancel Tasks&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;task-history&#34;&gt;Task History&lt;/h2&gt;
+
+&lt;p&gt;You can easily review a history of all tasks that have been run in the background by clicking on the &amp;ldquo;History&amp;rdquo; tab. This history will not be available if NowSecure Workstation restarts:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./images/content/task-history-1.png&#34; alt=&#34;Task History&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Any failed background tasks will also be shown in the history with a &amp;ldquo;failed&amp;rdquo; status.&lt;br /&gt;
+&lt;br/&gt;Please review the logs using the Log Viewer from the Options menu to get more information on the task failure and send the logs to NowSecure using the &amp;ldquo;Send Logs&amp;rdquo; button to share potential issues with NowSecure.&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

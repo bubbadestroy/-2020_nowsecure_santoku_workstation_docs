@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/workstation.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/getting-started.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/getting-started/hardware-software-requirements.html</loc>
+    <lastmod>2019-07-16T15:25:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/getting-started/obtaining-workstation.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/getting-started/installing-workstation.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/getting-started/running-workstation.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/getting-started/updating-workstation.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/artifact-viewer.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/editors.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/toolbar-buttons.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/preferences.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/backup-import-projects.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/updates.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/background-task-manager.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/emulator.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/device-manager.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/device-provisioning.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ui-overview/backup-and-restore.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/step-by-step-guide.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/step-by-step-guide/setup.html</loc>
+    <lastmod>2019-06-09T13:35:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/step-by-step-guide/network.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/step-by-step-guide/forensics.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/step-by-step-guide/code.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/step-by-step-guide/advanced.html</loc>
+    <lastmod>2019-03-14T14:15:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/step-by-step-guide/report.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/jailed-testing.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/jailed-testing/overview.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/jailed-testing/supported-applications.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/jailed-testing/advanced-functionality.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/jailed-testing/faq.html</loc>
+    <lastmod>2018-08-08T16:08:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/jailed-testing/summary.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ios-device-update.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ios-device-update/updating-nowsecure-cydia-packages.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ios-device-update/provisioning-an-ios-device.html</loc>
+    <lastmod>2019-09-09T12:21:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ios-device-update/factory-resetting-an-ios-device.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ios-device-update/jailbreak-an-ios-device.html</loc>
+    <lastmod>2019-09-08T23:34:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/ios-device-update/updating-ios-test-devices.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/android-device-update.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/android-device-update/factory-resetting-an-android-device.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/android-device-update/rooting-an-android-device.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/android-device-update/provisioning-an-android-device.html</loc>
+    <lastmod>2019-07-16T15:25:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/faq.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/faq/supported-devices.html</loc>
+    <lastmod>2019-07-16T15:25:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/faq/license-activation.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/faq/device-provisioning-requirements.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/faq/oss-components.html</loc>
+    <lastmod>2018-01-30T15:32:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/faq/5-1-update.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/faq/compatible-wifi-adapters.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workstation/troubleshooting.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/workstation.html</loc>
+    <lastmod>2018-07-17T10:13:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
